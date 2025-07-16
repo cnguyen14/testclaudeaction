@@ -12,3 +12,9 @@ A test project for GitHub Actions and PR workflows.
 pip install -e .
 python main.py
 ```
+
+## Development
+This project uses GitHub Actions for CI/CD. Make sure to:
+- Create feature branches from `develop`
+- Submit PRs to merge back to `develop`
+- All tests must pass before merging
